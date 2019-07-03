@@ -1,0 +1,34 @@
+Firstly, I apologize for how long this readme is, but you should read through it before starting, so we're on the same page.
+
+You'll need to open the MultipleLights_Win.cbp file to run it. Before running, make sure you hit the "rebuild" button on the toolbar
+(the blue circular arrows). If you've never used codeblocks before, you need to hit the yellow cog to compile.
+
+Another thing to note about this program: you may notice that many variables start with "GL", such as GLfloat, GLint, GLuint, etc. 
+Just ignore the GL and treat it as if it was a normal float, int, etc. They literally mean the same exact thing, they're just 
+used for compatability across all openGL systems, making it easier to cross-compile. I just do it out of habit, like I said
+just ignore it and use the normal keywords in your own code -- it won't cause any issues. You can make a GLfloat = float, or vice versa.
+Even if we port this to linux or mac, we should be okay with using normal ints or floats.
+
+So, assuming you get it to compile (which hopefully goes well), you may need to adjust some things to actually get it working. 
+Firstly, the OpenGL version supported on your laptop might be too low to run the program. This was the case on my laptop, 
+my laptop supports up to v3.1, wheras the program is in v3.3. This can be changed in the main.cpp file. On line 151 you should
+see a GLint MinMinor = 3. Just change that value to 1 (if you need 3.1, for example). I think your laptop might be a bit newer than mine,
+so this might not even be an issue. Let me know if you need a v2.x, and we'll see what we can do. That'd be really bad though, 
+because the last v2.x came out in 2006 lol
+
+Another thing I had to adjust was the number of tiles, because my framerate was waaay too low. This can be adjusted in the 
+GraphicsEngine.cpp file, lines 119 & 120. Make the swMaxLat and swMaxLon (sphereworld max latitude/longitude) smaller.
+Some tips on this: the function for creating the world is undefined for odd values, so you might get some pretty crazy shit
+if you change them to any odd number. Or it may work, I don't fux with it tho lol, feel free if you wish. Also,
+if you want (near) square tiles on the equator, make the latitude twice as large as the longitude, but you can mess around with this 
+to find something that looks good to you. We should find some options that look good, to accomodate slower machines,
+and include them as settings in our program somehow. 
+
+Hmmm... What else...
+
+Controls: Hit the A key to turn off the axes, hit the B key to turn off the borders inbetween tiles, hit the M key to turn on
+wireframe mode (which just shows the outline of the tiles, kinda cool to just look at, we'll probably end up taking it out though).
+Click and drag moves the camera around, as do the arrow keys. Press ctrl and move to zoom in and out. Escape exits the program.
+
+That's about all I can think of for now. Like I said, hit me up with any issues you have, and we can try and sort them out! Good luck
+man! Thanks for bearing with me on this. I think the final product will be worth the hassle. 
