@@ -1,0 +1,131 @@
+# depslib dependency file v1.0
+1516460339 source:/home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/Axes.cpp
+	"Axes.h"
+
+1515990034 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/Axes.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1516488496 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/ProgramDefines.h
+
+1458845110 source:/home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/Light.cpp
+	"Light.h"
+
+1516465123 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/Light.h
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1514174389 source:/home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/LoadShaders.cpp
+	"LoadShaders.h"
+
+1514175393 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1516489817 source:/home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/main.cpp
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1516489875 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"LoadShaders.h"
+	"ProgramDefines.h"
+	"SphericalCamera.h"
+	"YPRCamera.h"
+	"Axes.h"
+	"teapot.h"
+	"Material.h"
+	"Light.h"
+	"MaterialPresets.h"
+	"Models.h"
+
+1516237995 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/SphericalCamera.h
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<math.h>
+	"ProgramDefines.h"
+
+1516466034 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/YPRCamera.h
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1516243762 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/teapot.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	"Shape.h"
+
+1515306440 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/Shape.h
+
+1516465148 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/Material.h
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1458869226 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/MaterialPresets.h
+	"Material.h"
+
+1516244969 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/Models.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<math.h>
+	<cstdlib>
+	<ctime>
+	<iostream>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1516322893 /home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/UI.h
+	"GraphicsEngine.h"
+
+1458847776 source:/home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/Material.cpp
+	"Material.h"
+
+1516460553 source:/home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/Models.cpp
+	"Models.h"
+
+1515306700 source:/home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/Shape.cpp
+	"Shape.h"
+
+1516238647 source:/home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/SphericalCamera.cpp
+	"SphericalCamera.h"
+
+1516471082 source:/home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/UI.cpp
+	"UI.h"
+
+1516466085 source:/home/don/Programming/Graphics2018/3D_Graphics/Lighting/MultipleLights/Linux_Win_CB/YPRCamera.cpp
+	"YPRCamera.h"
+
